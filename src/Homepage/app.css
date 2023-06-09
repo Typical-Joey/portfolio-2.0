@@ -1,0 +1,50 @@
+.homepage {
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+.homepage-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Hi Melody", cursive;
+}
+
+.homepage-link {
+  font-size: 3rem;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.homepage-link:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+.greeting {
+  color: var(--green);
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+  font-family: "Hi Melody", cursive;
+  font-size: 6rem;
+}
+
+.project-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.project-button {
+  background-color: transparent;
+  border: 2px solid var(--green);
+  border-radius: 35px;
+  padding: 5px 20px;
+  color: var(--white);
+  font-family: "Hi Melody", cursive;
+  font-size: 2rem;
+}
+
+.project-button:hover {
+  background-color: var(--green);
+}
