@@ -1,3 +1,30 @@
 .navbar {
   background-color: var(--foreground-color);
 }
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-right {
+  margin-right: 2rem;
+  color: var(--white) !important;
+}
+
+.margin-right:hover {
+  color: var(--green) !important;
+}
+
+.nav-links {
+  font-family: "Hi Melody", cursive;
+  font-size: 2rem;
+}
+
+.icon-button:hover {
+  color: var(--green) !important;
+}

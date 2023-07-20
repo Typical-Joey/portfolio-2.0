@@ -1,30 +1,44 @@
 import React from "react";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import DescriptionIcon from "@mui/icons-material/Description";
+import IconButton from "@mui/material/IconButton";
 import "./navbar.css";
 
 export default function MyNavbar() {
   return (
     <Navbar className="navbar">
-      <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Container className="nav-container">
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
+        <Nav className="nav-links flex">
+          <Nav.Link href="" className="margin-right">
+            Home
+          </Nav.Link>
+          <Nav.Link href="" className="margin-right">
+            Project
+          </Nav.Link>
+          <Nav.Link href="" className="margin-right">
+            Contact Me
+          </Nav.Link>
+        </Nav>
+        <div>
+          <IconButton className="icon-button">
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+          <IconButton className="icon-button">
+            <LinkedInIcon fontSize="large" />
+          </IconButton>
+          <IconButton className="icon-button">
+            <DescriptionIcon fontSize="large" />
+          </IconButton>
+        </div>
       </Container>
     </Navbar>
   );
