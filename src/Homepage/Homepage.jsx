@@ -1,12 +1,10 @@
 import React from "react";
-import "./app.css";
-import MyNavbar from "../Navbar/MyNavbar";
+import "./homepage.css";
 import { Container } from "react-bootstrap";
 
-function App() {
+function Homepage() {
   return (
-    <div className="homepage">
-      <MyNavbar />
+    <div>
       <Container>
         <h1 className="greeting">Welcome</h1>
         <div className="homepage-links">
@@ -31,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;

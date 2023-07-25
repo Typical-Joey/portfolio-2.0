@@ -6,3 +6,8 @@
   --white: #ffffff;
   --black: #000000;
 }
+
+.app-container {
+  background-color: var(--background-color);
+  height: 100vh;
+}
