@@ -18,13 +18,13 @@ export default function MyNavbar() {
           </Nav>
         </Navbar.Collapse> */}
         <Nav className="nav-links flex">
-          <Nav.Link href="" className="margin-right">
+          <Nav.Link href="/" className="margin-right">
             Home
           </Nav.Link>
-          <Nav.Link href="" className="margin-right">
+          <Nav.Link href="/projects" className="margin-right">
             Project
           </Nav.Link>
-          <Nav.Link href="" className="margin-right">
+          <Nav.Link href="/contact-me" className="margin-right">
             Contact Me
           </Nav.Link>
         </Nav>
