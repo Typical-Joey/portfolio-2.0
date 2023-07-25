@@ -8,11 +8,21 @@ function Homepage() {
       <Container>
         <h1 className="greeting">Welcome</h1>
         <div className="homepage-links">
-          <a className="homepage-link" href="/">
+          <a
+            className="homepage-link"
+            href="https://github.com/Typical-Joey/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Git
           </a>
-          <a className="homepage-link" href="/">
-            Linkdein
+          <a
+            className="homepage-link"
+            href="https://www.linkedin.com/in/joseph-capocci-01bb10199/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
           </a>
           <a className="homepage-link" href="/">
             Resume

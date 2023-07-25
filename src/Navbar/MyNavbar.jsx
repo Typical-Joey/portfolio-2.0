@@ -29,10 +29,20 @@ export default function MyNavbar() {
           </Nav.Link>
         </Nav>
         <div>
-          <IconButton className="icon-button">
+          <IconButton
+            className="icon-button"
+            href="https://github.com/Typical-Joey/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubIcon fontSize="large" />
           </IconButton>
-          <IconButton className="icon-button">
+          <IconButton
+            className="icon-button"
+            href="https://www.linkedin.com/in/joseph-capocci-01bb10199/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon fontSize="large" />
           </IconButton>
           <IconButton className="icon-button">
