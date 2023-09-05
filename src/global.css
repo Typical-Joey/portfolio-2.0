@@ -7,8 +7,12 @@
   --black: #000000;
 }
 
+html {
+  background-color: var(--background-color);
+}
+
 .app-container {
   background-color: var(--background-color);
-  height: 100%;
+  height: 100vh;
   padding-bottom: 5rem;
 }
