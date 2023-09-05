@@ -1,3 +1,9 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-col {
   margin-top: 2rem !important;
 }
@@ -5,4 +11,25 @@
 .project-card {
   height: 400px !important;
   width: 350px;
+  background-color: var(--foreground-color) !important;
+}
+
+.project-card:hover {
+  cursor: pointer;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.project-img-overlay {
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.project-img-overlay:hover {
+  background-color: rgb(59, 186, 150, 0.9) !important;
 }
