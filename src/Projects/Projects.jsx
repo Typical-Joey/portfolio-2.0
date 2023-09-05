@@ -21,7 +21,7 @@ export default function Projects() {
         <Row className="projects-container">
           {testProjects.map((project) => (
             <Col xs={12} sm={12} md={4} lg={4} className="card-col">
-              <Card className="project-card">
+              <Card className="project-card" onClick={() => setShowModal(true)}>
                 <div className="project-img-overlay">
                   <img
                     className="project-img"
@@ -33,7 +33,6 @@ export default function Projects() {
             </Col>
           ))}
         </Row>
-        <button onClick={() => setShowModal(true)}> Show Modal</button>
       </Container>
       <ProjectModal show={showModal} onHide={() => setShowModal(false)} />
     </>
