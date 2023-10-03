@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
+import image from "../images/detailed-placeholder.jpg";
 import "./projectModal.css";
 
 export default function projectModal({ show, project, onHide }) {
@@ -14,10 +15,12 @@ export default function projectModal({ show, project, onHide }) {
     >
       {/* <Modal.Header closeButton /> */}
       <Modal.Body className="modal-body-container">
-        <div className="left">project-image</div>
+        <div className="left">
+          <img src={image} alt="" />
+        </div>
         <div className="right">
           <h4>{project.title}</h4>
-          <textarea>{project.description}</textarea>
+          <textarea readOnly={true}>{project.description}</textarea>
         </div>
       </Modal.Body>
     </Modal>
