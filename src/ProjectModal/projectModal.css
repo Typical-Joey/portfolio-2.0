@@ -1,0 +1,32 @@
+.modal-body-container {
+  padding: 0 !important;
+  background-color: #f5f5f5;
+  height: 30rem;
+}
+
+.left {
+  float: left;
+  background-color: blue;
+  width: 60%;
+  height: 100%;
+}
+
+.right {
+  float: right;
+  background-color: red;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right textarea {
+  border: 0 solid #a0a0a0;
+  border-radius: 2%;
+  box-shadow: 0 0 10px #dadada;
+  padding: 10px 15px;
+  resize: none;
+  height: 80%;
+  width: 80%;
+}
